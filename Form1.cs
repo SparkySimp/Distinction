@@ -22,7 +22,7 @@ namespace Ayıklama
             Random prng1 = new Random();
             Random prng2 = new Random();
             int uretimSayisi = prng2.Next(10, 21);
-            for (int i = 0; i < uretimSayisi; i++) listBox1.Items.Add(prng1.Next(50, 100));
+            for (int i = 0; i < uretimSayisi; i++) listBox1.Items.Add(prng1.Next(50, 101));
         }
 
         private void button1_Click(object sender, EventArgs e)
